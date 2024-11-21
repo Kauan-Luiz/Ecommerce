@@ -378,12 +378,51 @@ ul{
     color: var(--cor-fonte);
 }
 
+/*----------Detalhes Produtos-----------*/
+
+.ver-produto{
+margin-top: 60px;
+}
+
+.ver-produto .col-2 img{
+    width: 100%;
+    padding: 0;
+}
+
+.ver-produto #produtoImg{
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+.ver-produto .col-2{
+    padding: 20px;
+}
 
 
 
 
 
-/*----------Menu cecular-----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------Menu celular-----------*/
 
 @media only screen and (max-width: 800px){
     nav ul{
@@ -434,3 +473,5 @@ ul{
         font-size: 24px;
     }
 }
+
+
