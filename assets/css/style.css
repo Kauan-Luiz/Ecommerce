@@ -7,8 +7,8 @@
 }
 
 :root{
-    --cor-padrao:#ff523b;
-    --cor-padrao-hover:#f3b2e5;
+    --cor-padrao:#FF0000;
+    --cor-padrao-hover:#FF9999;
     --cor-fonte:#fff;
     --cor-fonte-p:#555;
     --cor-btn:#563434;
@@ -24,7 +24,9 @@ body{
 
 .banner{
     background: radial-gradient(var(--cor-padrao-hover), var(--cor-padrao));
+   
 }
+
 
 .banner .linha{
     margin-top: 70px;
@@ -41,6 +43,7 @@ body{
     display: flex;
     align-items: center;
     padding: 20px;
+    border-bottom: solid var(--cor-fonte) 2px;
 }
 
 nav{
